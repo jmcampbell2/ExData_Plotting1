@@ -46,7 +46,7 @@ with(datesub, {
     lines(DateTime, Sub_metering_2, col="red")
     lines(DateTime, Sub_metering_3, col="blue")
     legend("topright", lty="solid", col=c("black","red","blue"),
-           legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+           legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty="n")
 
     #Step 8: Create plot 4 (lower right)
     plot(DateTime, Global_reactive_power, type = "n", xlab = "datetime", 
